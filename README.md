@@ -180,3 +180,4 @@ tags:
 - [Geometric deep learning](https://mlpapers.org/geometric-deep-learning/)
 - [Neural networks](https://mlpapers.org/neural-nets/)
 - [Bayesian networks](https://mlpapers.org/bayesian-nets/)
+- [Neurosymbolic learning and reasoning](https://mlpapers.org/neurosymbolic-learning/)
