@@ -99,7 +99,7 @@ tags:
 
 - **Variational Graph Auto-Encoders** - Uses a GCN encoder, Gaussian latent node variables, and an inner-product decoder to reconstruct adjacency. An unsupervised baseline for link prediction. [Kipf and Welling 2016](<https://arxiv.org/abs/1611.07308> "Variational Graph Auto-Encoders; NeurIPS BDL Workshop").
 - **SEAL** - Predicts links from local enclosing subgraphs with labels marking nodes' positions relative to the candidate pair. Removes the target edge from positive training subgraphs to avoid exposing the answer. [Zhang and Chen 2018](<https://arxiv.org/abs/1802.09691> "Link Prediction Based on Graph Neural Networks; NeurIPS").
-- **LightGCN** - Learns user and item embeddings through linear propagation on the interaction graph and combines layers. Removes feature transformations and nonlinearities from graph convolution for collaborative filtering. [He et al. 2020](<https://arxiv.org/abs/2002.02126> "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation; arXiv").
+- **Graph-based recommendation** - See [Recommendation and Learning to Rank](https://mlpapers.org/ranking/#implicit-feedback-and-sequential-recommendation) for LightGCN and learning from user-item interactions.
 - **Neural Bellman-Ford Networks** - Learns node-pair representations through generalized Bellman-Ford updates with neural initialization, message, and aggregation operators. Uses path information for link prediction. [Zhu et al. 2021](<https://arxiv.org/abs/2106.06935> "Neural Bellman-Ford Networks: A General Graph Neural Network Framework for Link Prediction; NeurIPS").
 
 ## Directed graph structure
